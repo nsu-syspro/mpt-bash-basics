@@ -1,2 +1,4 @@
-mkdir -p $1.unpacked
-tar xf $1 -C $1.unpacked
+#!/usr/bin/env bash
+
+mkdir -p "$1.unpacked"
+tar xf "$1" -C "$1.unpacked"
