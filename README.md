@@ -1,7 +1,5 @@
 # Знакомство с Bash
 
-<img alt="points bar" align="right" height="36" src="../../blob/badges/.github/badges/points-bar.svg" />
-
 [![Очередная смешная картинка](https://imgs.xkcd.com/comics/the_general_problem.png)](https://xkcd.com/974/)
 
 
