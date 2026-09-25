@@ -48,8 +48,8 @@ function test_solution() {
     echo "$ACTUAL"
     fail
   fi
-  diff --color=always -U 1000 <(echo "") <(echo "$ACTUAL") || fail
-  diff --color=always -r -U 1000 "$EXPECTED" "$ARCHIVE_NAME.unpacked/root" || fail
+  diff -U 1000 <(echo "") <(echo "$ACTUAL") || fail
+  diff -r -U 1000 "$EXPECTED" "$ARCHIVE_NAME.unpacked/root" || fail
 }
 
 
